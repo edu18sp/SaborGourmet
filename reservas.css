@@ -1,0 +1,144 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #031241c6;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    transition: transform 0.3s ease-in-out;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Seção de Reservas */
+.reservas {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservas h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reservas p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.form-reserva {
+    display: grid;
+    gap: 15px;
+    text-align: left;
+}
+
+.form-reserva label {
+    font-size: 16px;
+    color: #333;
+}
+
+.form-reserva input, .form-reserva select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-reserva input:focus, .form-reserva select:focus {
+    border-color: #3498db;
+}
+
+.form-reserva button {
+    background-color: #120c6c8f;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-reserva button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background-color: #00000090;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.titulo {
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    flex-direction: column;
+}
+.cabeçalho {
+    padding: 5%;
+    max-height: 100px;
+}
+
+.instaface {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+

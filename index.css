@@ -32,7 +32,7 @@ header {
 
 
 .titulo {
-    margin-left: 28%;
+    margin-left: 20%;
     display: flex;
     justify-content: space-around;
     margin-top: -35px;
@@ -41,7 +41,7 @@ header {
     flex-direction: column;
 }
 .cabeçalho {
-    padding: 20px;
+    padding: 2.5%;
     max-height: 100px;
 }
 
@@ -83,7 +83,7 @@ nav a:hover {
     background-color: rgba(100, 117, 227, 0.7);
 }
 
-.bem vindo {
+.bemvindo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -113,4 +113,20 @@ h3 {
 
 h1 {
     margin-bottom: -10px;
+}
+
+.img1 {
+    padding-bottom: 50px;
+}
+
+.instaface {
+    display: flex;
+    justify-content: center;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.tudojunto {
+    display: flex;
+    justify-content: center;
 }

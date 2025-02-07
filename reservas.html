@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Reservas - Restaurante Delícia</title>
     <link rel="stylesheet" href="reservas.css">
-    <title>Document</title>
 </head>
 <body>
-    
+    <header class="cabeçalho">
+        <img class="img1" src="sabor gourmet.png" alt="Logotipo do Restaurante Sabor Gourmet" style="height: 170px; width: 171px;">
+        
+        <div class="titulo">
+            <div class="tudojunto">
+                <h1 class="titulo-principal">SABOR GOURMET</h1>
+                <div class="instaface">
+                    <a href="https://www.instagram.com/fogodechao/" target="_blank">
+                        <img src="instagram.png" alt="Instagram do Fogo de Chão" style="width:60px;">
+                    </a>
+                    <a href="https://www.facebook.com/fogodechao" target="_blank">
+                        <img src="facebook.png" alt="Facebook do Fogo de Chão" style="width:53px; margin-top: 3px; margin-left: 60px;">
+                    </a>
+                </div>
+            </div>
+            <h3 class="subtitulo" style="margin-right: 40%;">RESERVE JÁ SEU LUGAR</h3>
+        </div>
+    </header>
+
+    <section class="reservas">
+        <h2>Faça sua Reserva</h2>
+        <p>Escolha a data, hora e número de pessoas para garantir seu lugar.</p>
+        
+        <form action="#" method="POST" class="form-reserva">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="pessoas">Número de pessoas:</label>
+            <select id="pessoas" name="pessoas" required>
+                <option value="1">1 Pessoa</option>
+                <option value="2">2 Pessoas</option>
+                <option value="3">3 Pessoas</option>
+                <option value="4">4 Pessoas</option>
+                <option value="5">5 Pessoas</option>
+                <option value="6">6 Pessoas</option>
+                <option value="7">7 Pessoas</option>
+                <option value="8">8 Pessoas</option>
+            </select>
+
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Restaurante Delícia | Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

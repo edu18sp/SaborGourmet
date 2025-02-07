@@ -1,0 +1,177 @@
+/* Resetando margens e padding padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0f0f0;
+    color: #031341;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    background-color: #031341;
+    position: relative;
+    z-index: 1;
+    opacity: 80%;
+}
+
+header h3 {
+    margin-left: 470px;
+}
+
+header h1 {
+    margin-left: 380px;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu-category {
+    background-color: #ffffffdb;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e94e77;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu-item {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.4rem;
+}
+
+.item-title h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.price {
+    margin-left: 18%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000;
+    opacity: 50%;
+    border-radius: 5%;
+}
+
+.botao {
+    background-color: #01ce1c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+    width: 180px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+}
+
+.botao:hover {
+    background-color: #d93f63; /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o tamanho do botão */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave ao passar o mouse */
+}
+
+.botao:focus {
+    outline: none; /* Remove a borda padrão de foco */
+    box-shadow: 0 0 0 3px rgba(233, 78, 119, 0.6); /* Borda de foco com a cor do botão */
+}
+
+
+.carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.carrinho .botao {
+    margin-left: auto; /* Faz com que os botões fiquem alinhados à direita */
+    margin-right: 0;
+}
+
+footer {
+    opacity: 65%;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+    
+
+.carrinho .price {
+    margin-left: 50px;
+    margin-right: 20px; 
+}
+
+.menu-item {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
